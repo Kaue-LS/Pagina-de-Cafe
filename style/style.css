@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 130px;
+  padding: 20px 0px;
   background-color: var(--brown-color);
   width: 100%;
   max-width: 100%;
@@ -15,6 +15,9 @@
   align-items: center;
   gap: 20px;
   color: var(--white-color);
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
 }
 .header > .header_nav h1 {
   font-size: 1.5rem;
@@ -53,4 +56,21 @@
   width: 100%;
   height: 100%;
   max-width: 20px;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+  .header > .header_nav {
+    max-width: 100%;
+  }
+  .header > .header_nav h1 {
+    font-size: 1.2rem;
+  }
+  .header > .header_nav > div {
+    display: none;
+  }
+  .header > .header_nav a:first-child > span {
+    max-width: 20px;
+  }
 }
