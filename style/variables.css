@@ -5,3 +5,15 @@
   --yellow-color: #fef3c6;
   --icon-color: #7b3306;
 }
+.brown-color {
+  background-color: var(--brown-color);
+}
+.brown-light-color {
+  background-color: var(--brown-light-color);
+}
+.white-color {
+  background-color: var(--white-color) !important;
+}
+.font-brown-color {
+  color: var(--brown-color) !important;
+}
