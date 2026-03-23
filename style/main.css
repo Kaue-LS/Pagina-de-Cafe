@@ -141,3 +141,21 @@ input[type="radio"] {
   background-color: #fff;
   margin: 0;
 }
+
+/* --------------------------------------------- */
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+input[type="button"] {
+  background: none;
+  outline: none;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+}
