@@ -3,8 +3,9 @@
   --brown-light-color: #903b00;
   --white-color: #ffffff;
   --yellow-color: #fef3c6;
-  --icon-color: #7b3306;
+  --gray-color: #364153;
 }
+
 .brown-color {
   background-color: var(--brown-color);
 }
@@ -13,6 +14,12 @@
 }
 .white-color {
   background-color: var(--white-color) !important;
+}
+.yellow-color {
+  background-color: var(--yellow-color) !important;
+}
+.gray-color {
+  color: var(--gray-color) !important;
 }
 .font-brown-color {
   color: var(--brown-color) !important;
