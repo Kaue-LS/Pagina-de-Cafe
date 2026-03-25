@@ -175,6 +175,7 @@
   border-radius: 0.625rem;
   transition: 0.3s ease;
   margin: auto;
+  box-shadow: 0px 24px 20px 0px rgba(0, 0, 0, 0.1);
 }
 .coffeList > .product > .image {
   border-top-left-radius: 0.625rem;
@@ -235,6 +236,37 @@
   height: 100%;
 }
 
+.ourHistory {
+  padding: 80px 100px;
+  text-align: center;
+}
+.ourHistory > h5 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.ourHistory > p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-top: 20px;
+}
+/* -------------------------------------------------------- */
+.footer {
+  text-align: center;
+  padding: 30px 100px;
+}
+.footer > p,
+.footer > span {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+.footer > span {
+  display: block;
+  margin-top: 20px;
+}
 @media (max-width: 768px) {
   .header {
     padding: 20px;
@@ -323,5 +355,17 @@
   }
   .coffeList > .product > .content > .resume {
     font-size: 0.0875rem;
+  }
+  /* ------------------------------------------ */
+  .ourHistory {
+    padding: 80px 20px;
+  }
+  .ourHistory > p {
+    width: 100%;
+  }
+  /* ------------------------------------------ */
+  .footer {
+    text-align: center;
+    padding: 30px 20px;
   }
 }
