@@ -24,3 +24,6 @@
 .font-brown-color {
   color: var(--brown-color) !important;
 }
+.font-white-color {
+  color: var(--white-color) !important;
+}
