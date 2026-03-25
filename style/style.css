@@ -159,7 +159,7 @@
 .coffeList {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(3, minmax(390px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(309px, 1fr));
   gap: 50px;
   margin-top: 70px;
 }
@@ -181,7 +181,7 @@
   border-top-right-radius: 0.625rem;
   overflow: hidden;
   width: 100%;
-  max-width: 309px;
+  max-width: 100%;
   min-height: 309px;
   position: relative;
 }
@@ -212,9 +212,7 @@
   align-items: center;
   width: 100%;
 }
-.coffeList > .product > .content > .priceButton > .price {
-  font-size: 16px;
-}
+
 .coffeList > .product > .content > .priceButton > label {
   display: flex;
   justify-content: space-between;
@@ -290,5 +288,40 @@
   .iconList > div > h3 {
     font-size: 1.125rem;
     font-weight: 600;
+  }
+  .coffeListSection {
+    padding: 70px 10px;
+  }
+  .coffeList {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  .coffeList > .product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 0 10px;
+    position: relative;
+    border-radius: 0.625rem;
+    transition: 0.3s ease;
+    margin: auto;
+  }
+  .coffeList > .product > .image {
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    position: relative;
+  }
+  .coffeList > .product > .content {
+    width: 100%;
+    padding: 20px 15px 10px;
+  }
+  .coffeList > .product > .content > .resume {
+    font-size: 0.0875rem;
   }
 }
