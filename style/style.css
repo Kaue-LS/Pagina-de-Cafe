@@ -148,13 +148,20 @@
   font-weight: 300;
 }
 /* ----------------------------------------------------- */
+.coffeListSection {
+  padding: 70px 100px;
+}
+.coffeListSection > h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
 .coffeList {
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(3, minmax(390px, 1fr));
   gap: 50px;
-  padding-inline: 100px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 70px;
 }
 .coffeList > .product {
   display: flex;
@@ -167,6 +174,7 @@
   position: relative;
   border-radius: 0.625rem;
   transition: 0.3s ease;
+  margin: auto;
 }
 .coffeList > .product > .image {
   border-top-left-radius: 0.625rem;
@@ -181,6 +189,7 @@
   display: block;
   width: 100%;
   height: 100%;
+  min-height: inherit;
   object-fit: cover;
   transition: 0.3s ease;
 }
@@ -202,7 +211,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px 10px;
 }
 .coffeList > .product > .content > .priceButton > .price {
   font-size: 16px;

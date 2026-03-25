@@ -3,6 +3,7 @@
   --brown-light-color: #903b00;
   --white-color: #ffffff;
   --yellow-color: #fef3c6;
+  --yellow-light-color: #fffbeb;
   --gray-color: #364153;
 }
 
@@ -17,6 +18,9 @@
 }
 .yellow-color {
   background-color: var(--yellow-color) !important;
+}
+.yellow-light-color {
+  background-color: var(--yellow-light-color) !important;
 }
 .gray-color {
   color: var(--gray-color) !important;
